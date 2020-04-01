@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_1"
+    tools:context=".Fragments_Quiz.Q8Fragment">
+
+    <ImageView
+        android:id="@+id/im8_iv"
+        android:layout_width="179dp"
+        android:layout_height="150dp"
+        android:src="@drawable/im_8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <TextView
+        android:id="@+id/txt_f8"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:text="Igreja"
+        android:textColor="@color/colorTextB2"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.393" />
+
+    <EditText
+        android:id="@+id/edt_txt_f8"
+        android:layout_width="276dp"
+        android:layout_height="75dp"
+        android:backgroundTint="@color/colorTextB"
+        android:ems="10"
+        android:hint="Digite a palavra em inglês"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextB"
+        android:textColorHint="@color/colorTextB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.582" />
+
+    <Button
+        android:id="@+id/resp_f8"
+        android:layout_width="112dp"
+        android:layout_height="76dp"
+        android:background="@drawable/btn_format_txt"
+        android:text="Resposta"
+        android:textColor="@color/colorTextB"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <Button
+        android:id="@+id/avanc_f8"
+        android:layout_width="112dp"
+        android:layout_height="76dp"
+        android:background="@drawable/btn_format_2"
+        android:text="Avancar"
+        android:textColor="@color/colorTextB"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

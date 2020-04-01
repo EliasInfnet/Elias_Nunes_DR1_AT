@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_quiz"
+    app:startDestination="@id/q1Fragment">
+
+    <fragment
+        android:id="@+id/q1Fragment"
+        android:name="com.example.at_android_01.Fragments_Quiz.Q1Fragment"
+        android:label="fragment_q1"
+        tools:layout="@layout/fragment_q1" />
+    <fragment
+        android:id="@+id/q2Fragment"
+        android:name="com.example.at_android_01.Fragments_Quiz.Q2Fragment"
+        android:label="fragment_q2"
+        tools:layout="@layout/fragment_q2" />
+    <fragment
+        android:id="@+id/q3Fragment"
+        android:name="com.example.at_android_01.Fragments_Quiz.Q3Fragment"
+        android:label="fragment_q3"
+        tools:layout="@layout/fragment_q3" />
+    <fragment
+        android:id="@+id/q4Fragment"
+        android:name="com.example.at_android_01.Fragments_Quiz.Q4Fragment"
+        android:label="fragment_q4"
+        tools:layout="@layout/fragment_q4" />
+    <fragment
+        android:id="@+id/q5Fragment"
+        android:name="com.example.at_android_01.Fragments_Quiz.Q5Fragment"
+        android:label="fragment_q5"
+        tools:layout="@layout/fragment_q5" />
+    <fragment
+        android:id="@+id/q6Fragment"
+        android:name="com.example.at_android_01.Fragments_Quiz.Q6Fragment"
+        android:label="fragment_q6"
+        tools:layout="@layout/fragment_q6" />
+    <fragment
+        android:id="@+id/q7Fragment"
+        android:name="com.example.at_android_01.Fragments_Quiz.Q7Fragment"
+        android:label="fragment_q7"
+        tools:layout="@layout/fragment_q7" />
+    <fragment
+        android:id="@+id/q8Fragment"
+        android:name="com.example.at_android_01.Fragments_Quiz.Q8Fragment"
+        android:label="fragment_q8"
+        tools:layout="@layout/fragment_q8" />
+    <fragment
+        android:id="@+id/q9Fragment"
+        android:name="com.example.at_android_01.Fragments_Quiz.Q9Fragment"
+        android:label="fragment_q9"
+        tools:layout="@layout/fragment_q9" />
+</navigation>
